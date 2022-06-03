@@ -1,0 +1,9 @@
+<launch>
+
+<rosparam file="$(find hand_urdf_description)/launch/controller.yaml" command="load"/>
+<node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen" ns="hand_urdf" args="aa2_position_controller mcp2_position_controller pip2_position_controller dip2_position_controller aa1_position_controller mcp1_position_controller pip1_position_controller dip1_position_controller aa3_position_controller mcp3_position_controller pip3_position_controller dip3_position_controller aa4_position_controller mcp4_position_controller pip4_position_controller dip4_position_controller act1_position_controller act2_position_controller act3_position_controller act4_position_controller joint_state_controller "/>
+<node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="false" output="screen">
+  <remap from="/joint_states" to="/hand_urdf/joint_states"/>
+</node>
+
+</launch>

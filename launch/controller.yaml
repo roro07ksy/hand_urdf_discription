@@ -1,0 +1,87 @@
+hand_urdf_controller:
+  # Publish all joint states -----------------------------------
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50
+
+  # Position Controllers --------------------------------------
+  aa2_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: aa2
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  mcp2_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: mcp2
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  pip2_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: pip2
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  dip2_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: dip2
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  aa1_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: aa1
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  mcp1_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: mcp1
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  pip1_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: pip1
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  dip1_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: dip1
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  aa3_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: aa3
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  mcp3_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: mcp3
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  pip3_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: pip3
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  dip3_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: dip3
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  aa4_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: aa4
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  mcp4_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: mcp4
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  pip4_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: pip4
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  dip4_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: dip4
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  act1_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: act1
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  act2_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: act2
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  act3_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: act3
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  act4_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: act4
+    pid: {p: 100.0, i: 0.01, d: 10.0}
