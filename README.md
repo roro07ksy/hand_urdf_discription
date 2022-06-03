@@ -1,6 +1,11 @@
 # hand_urdf_discription
 
-### To visulize 4-finger hand with joint coupler node
+![Screenshot from 2022-06-03 16-23-37](https://user-images.githubusercontent.com/40191598/171807711-2bd708b4-ef03-4bdb-b5b6-6e91d5b93c4c.png)
+
+
+
+
+## To visulize 4-finger hand with joint coupler node
 ```
 roslaunch hand_urdf_discription hand_display.launch
 ```
