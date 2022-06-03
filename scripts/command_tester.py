@@ -7,7 +7,7 @@ from std_msgs.msg import Header
 
 
 joint_8 = JointState()
-joint_8.position = [0,0,0,0,0,0,0,0]  # input joint data order = [ aa1 aa2 aa3 aa4 fe1 fe2 fe3 fe4 ]
+joint_8.position = [0,0,0,0,0,0,0,0]  # input joint data order = [ aa1 aa2 aa3 aa4 fe1 fe2 fe3 fe4 ] -
 i=0
 mcp_fe_max = 0.65
 
